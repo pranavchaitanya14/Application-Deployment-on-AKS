@@ -76,18 +76,18 @@ Check nodes:
 
 # Build the Docker image:
 
-      docker build -t eshitha15/my-frontend-app:1.0 .
+      docker build -t pranav/my-frontend-app:1.0 .
 
 # Test locally:
  
-    docker run -p 8080:80 eshitha15/my-frontend-app:1.0
+    docker run -p 8080:80 pranav/my-frontend-app:1.0
 
 
 Open: http://localhost:8080
 
 # Step 5: Push Image to Docker Hub:
     
-    docker push eshitha15/my-frontend-app:1.0
+    docker push pranav/my-frontend-app:1.0
 
 ✅ Now your image is available on Docker Hub.
 
