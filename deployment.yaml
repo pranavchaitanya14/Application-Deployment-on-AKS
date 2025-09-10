@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: eshitha15/my-frontend-app:1.0   # Docker Hub image
+        image: pranav/my-frontend-app:1.0   # Docker Hub image
         ports:
         - containerPort: 80
